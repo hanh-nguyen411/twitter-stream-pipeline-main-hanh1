@@ -1,0 +1,8 @@
+confluent-kafka
+requests
+tweepy
+pandas
+coloredlogs
+jsonschema
+pymongo
+-e .
