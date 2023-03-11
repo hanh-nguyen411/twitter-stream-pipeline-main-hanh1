@@ -1,11 +1,11 @@
 import os
 import tweepy
 
-API_KEY = os.getenv('API_KEY', 'gFv1dUDmHi0TdfujoSzoBENIe')
-API_SECRET = os.getenv('API_SECRET', 'EVjvHXb966ytYc2W47RlIlu46Qx68NqKaoMIELYE3bmVfSiAu5')
-ACCESS_TOKEN = os.getenv('ACCESS_TOKEN', '1081418090540224512-BJwJzeXLWMCpVNVQ1KjwtKLYGMwTWt')
-ACCESS_SECRET = os.getenv('ACCESS_SECRET', 'cEMb0tzls90pJZQ17SoWrtSAq8I5Z6qOFp98eLR3Zoa1s')
-BEARER_TOKEN = os.getenv('BEARER_TOKEN', 'AAAAAAAAAAAAAAAAAAAAAEoRfQEAAAAAOzkR8bbI55MObS0VHosjWLqeZn8%3DQGThdUnburonKb55PiU80UvT1KKJhhoXSj3wtwW73668jvIZ81')
+API_KEY = os.getenv('API_KEY', '')
+API_SECRET = os.getenv('API_SECRET', '')
+ACCESS_TOKEN = os.getenv('ACCESS_TOKEN', '')
+ACCESS_SECRET = os.getenv('ACCESS_SECRET', '')
+BEARER_TOKEN = os.getenv('BEARER_TOKEN', '')
 
 
 def auth_conf():
